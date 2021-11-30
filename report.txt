@@ -1,0 +1,35 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'axis_bank.ipynb'
+ outputting to 'test.py'
+--------------------------------------------------------------------------------
+
+205:0: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+218:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+219:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+223:22: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+224:22: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+225:22: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+226:23: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+229:22: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+230:22: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+231:22: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+232:23: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+249:10: INFO: Added keywords to args of function 'tf.reduce_mean'
+249:25: INFO: Renamed 'tf.squared_difference' to 'tf.math.squared_difference'
+250:12: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+254:30: INFO: Added keywords to args of function 'tf.argmax'
+254:49: INFO: Added keywords to args of function 'tf.argmax'
+255:11: INFO: Added keywords to args of function 'tf.reduce_mean'
+257:7: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+265:9: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+--------------------------------------------------------------------------------
+
